@@ -54,6 +54,8 @@ function setup() {
 
 function draw() {
   background(55,43,43);
+  textSize(25);
+  text("Drag the Hexagonal Stone and Release it, to launch it towards the block",200 ,50);
   ground.display();
   ground2.display();
   ground3.display();
